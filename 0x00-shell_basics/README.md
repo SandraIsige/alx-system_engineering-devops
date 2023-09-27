@@ -11,3 +11,4 @@ rmdir /tmp/myfirstdirectory deletes the myfirstdirectory directory under the /tm
 cd - changes the working directory to the previous one.
 ls -la . .. /boot lists all files, including the hidden ones, in long format for the current directory, the parent of the current directory and the /boot directory.
 file /tmp/iamafile prints the type of file named iamfile under the /tmp directory.
+ln -s /bin/ls __ls__ creates a symbolic link names __ls__ to /bin/ls in the current working directory.
