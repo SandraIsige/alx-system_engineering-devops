@@ -8,3 +8,4 @@ mkdir /tmp/myfirstdirectory/ creates a directory called myfirstdirectory under t
 mv /tmp/betty /tmp/myfirstdirectory/ moves the betty file from /tmp/ to /tmp/myfirstdirectory
 rm /tmp/myfirstdirectory/betty deletes the betty file in the /tmp/myfirstdirectory directory
 rmdir /tmp/myfirstdirectory deletes the myfirstdirectory directory under the /tmp/ direcory
+cd - changes the working directory to the previous one
