@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/myfirstdirectory/ moves the betty file from /tmp/ to /tmp/myf
 rm /tmp/myfirstdirectory/betty deletes the betty file in the /tmp/myfirstdirectory directory
 rmdir /tmp/myfirstdirectory deletes the myfirstdirectory directory under the /tmp/ direcory
 cd - changes the working directory to the previous one
+ls -la . .. /boot lists all files, including the hidden ones, in long format for the current directory, the parent of the current directory and the /boot directory
