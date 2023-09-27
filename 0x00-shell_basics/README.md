@@ -6,3 +6,4 @@ ls -a -l displays current directory content, including hidden files, in long for
 ls -lan displays current directory content in long format, with user and group IDs displayed numerically and including the hidden files
 mkdir /tmp/myfirstdirectory/ creates a directory called myfirstdirectory under the /tmp/ directory
 mv /tmp/betty /tmp/myfirstdirectory/ moves the betty file from /tmp/ to /tmp/myfirstdirectory
+rm /tmp/myfirstdirectory/betty deletes the betty file in the /tmp/myfirstdirectory directory
