@@ -4,3 +4,4 @@ cd ~ changes the working directory to the user's home directory without using an
 ls -l lists the current directory contents in long format
 ls -a -l displays current directory content, including hidden files, in long format
 ls -lan displays current directory content in long format, with user and group IDs displayed numerically and including the hidden files
+mkdir /tmp/directory/ creates a directory called directory under the /tmp/ directory
