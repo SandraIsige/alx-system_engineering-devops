@@ -4,3 +4,4 @@ The 'groups' command prints all the groups the current user is a part of.<br>
 The 'sudo chown betty hello' command chnages the ownder of the file hello to the user betty.<br>
 The 'touch hello' command created an empty file called hello. <br>
 The 'chmod u+x hello' command gives execute permission to the owner of the file hello.<br>
+The 'chmod u+x,g+x,o+r hello' command gives execute permissions to the owner and group owner, and read permissions to other users.<br>
