@@ -5,3 +5,4 @@ The 'sudo chown betty hello' command chnages the ownder of the file hello to the
 The 'touch hello' command created an empty file called hello. <br>
 The 'chmod u+x hello' command gives execute permission to the owner of the file hello.<br>
 The 'chmod u+x,g+x,o+r hello' command gives execute permissions to the owner and group owner, and read permissions to other users.<br>
+The 'chmod +x hello' command gives execute permissions to the owner, group ownder and other users without using commas.<br>
