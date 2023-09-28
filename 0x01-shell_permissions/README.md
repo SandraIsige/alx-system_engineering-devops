@@ -10,4 +10,5 @@ The 'chmod u= hello & chmod g= hello & chmod & o=rwx hello' command gives the ow
 The 'chmod u=rwx hello & chmod g=rx hello & o=wx hello' command gives the owner all permissions, the group read & execute permissions and other users write and execute permissions over the file hello without using `, ;, && or ||.<br>
 The 'chmod --reference=olleh hello' command sets the mode of the file hello the same as olleh's mode.<br>
 The ' find . -type d -print0 | xargs -0 -I {} chmod ugo+x {}' command adds execute permission to all subdirectories of the current directory for the owner, group owner and other users without changing regular files. <br>
-The 'mkdir -m 751 my_dir'command creates the my_dir directory with permissions 751 in the working directory.<br>
+The 'mkdir -m 751 my_dir' command creates the my_dir directory with permissions 751 in the working directory.<br>
+The 'chown :school hello' command changes the group owner to school for the file hello.<br>
