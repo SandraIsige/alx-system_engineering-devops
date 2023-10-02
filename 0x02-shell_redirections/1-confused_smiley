@@ -1,2 +1,2 @@
 #!/bin/bash
-printif "(Ôo)'\n"
+echo "(Ôo)'\n"
