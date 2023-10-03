@@ -1,0 +1,2 @@
+#!/bin/bash
+whoami | xargs -I{} echo "hello {}"
