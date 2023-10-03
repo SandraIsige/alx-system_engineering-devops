@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami | xargs -I{} echo "hello {}"
+echo "hello $USER"
